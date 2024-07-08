@@ -1,0 +1,212 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1720400795203822, "dur":21896, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720400795225724, "dur":90, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720400795225852, "dur":358, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720400795226240, "dur":3575, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720400795229817, "dur":537318, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720400795767136, "dur":288, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720400795767542, "dur":1511, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1720400795226454, "dur":3368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720400795229824, "dur":2472, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720400795239468, "dur":408, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1720400795239880, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1720400795239974, "dur":4135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1720400795244111, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1720400795244404, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\novim\\Test_Task_Picaniska\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720400795244522, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\novim\\Test_Task_Picaniska\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720400795244649, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\novim\\Test_Task_Picaniska\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720400795244851, "dur":261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\novim\\Test_Task_Picaniska\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720400795245113, "dur":393, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\novim\\Test_Task_Picaniska\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720400795245507, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\novim\\Test_Task_Picaniska\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720400795245572, "dur":260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\novim\\Test_Task_Picaniska\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720400795245869, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player71e35b3c-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1720400795239879, "dur":6127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1720400795246547, "dur":128938, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1720400795378651, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1720400795378649, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1720400795378825, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1720400795379873, "dur":387271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720400795226530, "dur":3307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720400795229839, "dur":447, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720400795230286, "dur":2046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720400795257752, "dur":15037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1720400795272918, "dur":11634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1720400795284629, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska.exe" }}
+,{ "pid":12345, "tid":2, "ts":1720400795287544, "dur":24209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795311811, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795315914, "dur":9041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795324992, "dur":10084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795335200, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795337223, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795340028, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795341748, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795344552, "dur":9097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795353690, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795356792, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795358707, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720400795360207, "dur":30115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1720400795390370, "dur":376766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720400795226491, "dur":3336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720400795229828, "dur":341, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720400795230169, "dur":2143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720400795233242, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1720400795257756, "dur":38770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1720400795296580, "dur":18540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795315178, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795317748, "dur":7878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795325678, "dur":9825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795335567, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795337910, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795340138, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795342187, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795344615, "dur":9011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795353699, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795356584, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795358076, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720400795360088, "dur":15326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1720400795377130, "dur":135, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720400795375482, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1720400795377367, "dur":389764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720400795226517, "dur":3315, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720400795229834, "dur":415, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720400795230250, "dur":2065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720400795232320, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1720400795239821, "dur":33162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1720400795278099, "dur":22720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1720400795300852, "dur":15049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795315931, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795318462, "dur":7493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795326042, "dur":10828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795336969, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795338712, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795340806, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795342817, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795344541, "dur":9081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795353692, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795356399, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795357943, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720400795360083, "dur":407008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795226551, "dur":3290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720400795229843, "dur":382, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720400795230225, "dur":2104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720400795257775, "dur":36047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1720400795293864, "dur":20908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795314808, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795316489, "dur":8473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795325002, "dur":10065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795335159, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795337228, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795339387, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795341324, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795343454, "dur":5452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795348940, "dur":5800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795354772, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795357088, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795359118, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720400795360297, "dur":15329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1720400795375682, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1720400795375748, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1720400795379498, "dur":387640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720400795226590, "dur":3257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720400795229849, "dur":323, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720400795230173, "dur":2140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720400795233268, "dur":24677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1720400795258029, "dur":15045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1720400795274401, "dur":52506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795326947, "dur":9853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795336896, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795338704, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795340805, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795343483, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795348528, "dur":5691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795354259, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795357080, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795359276, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720400795361065, "dur":15902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1720400795377072, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1720400795378213, "dur":388940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720400795226614, "dur":3239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720400795229855, "dur":313, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720400795230169, "dur":2147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720400795233717, "dur":38626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1720400795272563, "dur":24279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1720400795296870, "dur":18309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795315223, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795317753, "dur":7859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795325671, "dur":9898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795335636, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795338192, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795340811, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795343282, "dur":5140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795348492, "dur":6237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795354762, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795357548, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795359869, "dur":15186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720400795375094, "dur":5109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1720400795380264, "dur":386876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720400795226639, "dur":3220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720400795229861, "dur":474, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720400795230335, "dur":1972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720400795232312, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/TaskResources/TaskPicaniska/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1720400795238944, "dur":231176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1720400795470138, "dur":297014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1720400795226668, "dur":3197, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1720400795229867, "dur":326, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1720400795230194, "dur":2127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1720400795233854, "dur":38856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1720400795272902, "dur":27778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1720400795300720, "dur":15117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795315909, "dur":8949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795324906, "dur":4757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795329750, "dur":7419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795337225, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795340027, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795341713, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795343713, "dur":8366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795352112, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795355936, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795357698, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795359969, "dur":15119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1720400795375120, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1720400795377652, "dur":389481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1720400795226713, "dur":3158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1720400795229871, "dur":2434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1720400795232321, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1720400795256187, "dur":8269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1720400795264498, "dur":8652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1720400795274374, "dur":318354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1720400795592745, "dur":174392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1720400795226744, "dur":3131, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1720400795229876, "dur":2434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1720400795232312, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1720400795257785, "dur":14675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1720400795272954, "dur":12679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1720400795286904, "dur":69296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1720400795356234, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1720400795357714, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1720400795359925, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1720400795361228, "dur":14220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1720400795376925, "dur":219, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1720400795375514, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1720400795377347, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1720400795378310, "dur":388831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1720400795226762, "dur":3119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1720400795229882, "dur":2437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1720400795238423, "dur":34474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1720400795272977, "dur":12878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1720400795286987, "dur":6850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795293865, "dur":20913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795314810, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795316469, "dur":8435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795324960, "dur":10125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795335210, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795337901, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795340767, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795343705, "dur":8367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795352114, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795355432, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795357534, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1720400795360228, "dur":17696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/TaskResources/TaskPicaniska/Test_Task_Picaniska_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1720400795377986, "dur":389156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720400795771619, "dur":820, "ph":"X", "name": "ProfilerWriteOutput" }
+,
